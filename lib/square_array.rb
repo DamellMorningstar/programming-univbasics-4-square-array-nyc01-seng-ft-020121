@@ -2,7 +2,7 @@ def square_array(array)
   # your code here
   counter = 0
   while array[counter] do
-    return array[counter]
+    puts array[counter]
     counter += 1
   end
   new_array = []
