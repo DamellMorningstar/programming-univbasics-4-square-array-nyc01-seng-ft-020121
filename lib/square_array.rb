@@ -1,11 +1,10 @@
 def square_array(array)
   # your code here
   counter = 0
+  sqr_numbers=[]
   while array[counter] do
-    puts array[counter]
+    sqr_numbers<<array[counter]*array[counter]
     counter += 1
-    new_array = []
-    new_array.push(counter ** 2)
   end
-  new_array
+  sqr_numbers
 end
