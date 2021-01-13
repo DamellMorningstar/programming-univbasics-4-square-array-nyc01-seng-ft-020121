@@ -1,5 +1,8 @@
 def square_array(array)
   # your code here
-  array.each_with_object([]) do |number, new_array|
-   new_array << number ** 2
+  count = 0
+ while count < numbers.length do
+   numbers.index ** 2
+ end
+ square_array(numbers)
 end
